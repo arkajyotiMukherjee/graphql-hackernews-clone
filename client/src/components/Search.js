@@ -25,6 +25,7 @@ const FEED_SEARCH_QUERY = gql`
     }
   }
 `;
+
 class Search extends Component {
   state = {
     links: [],
